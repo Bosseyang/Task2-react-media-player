@@ -1,0 +1,30 @@
+/* .header {
+  background-color: #ffffff67;
+
+  z-index: 1;
+} */
+
+.nav {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+  width: 100%;
+
+  top: 0;
+  z-index: 1;
+  gap: 1;
+
+  background-color: #ffffff67;
+  color: lightgray;
+  padding: 1.5rem;
+}
+
+nav .header-button {
+  color: rgba(211, 211, 211, 1);
+}
+
+nav .header-button:hover {
+  color: white;
+}
