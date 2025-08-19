@@ -1,10 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./css/index.css";
+import Header from "./components/header";
+import Playlist from "./components/playlist";
+import SongSection from "./components/songsection";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <Header />
+    <main className="main">
+      <Playlist />
+      <SongSection />
+    </main>
+  </StrictMode>
+);
