@@ -1,0 +1,44 @@
+section.songcard-section {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+
+  border-top: 2px solid rgba(23, 39, 61, 0.7);
+  border-bottom: 2px solid rgba(23, 39, 61, 0.7);
+
+  border-width: 2px 0 2px 0;
+
+  background-color: rgba(0, 0, 0, 0.363);
+  color: lightgray;
+  padding: 1rem 2rem;
+
+  gap: 2rem;
+}
+
+.songcard-section:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.507);
+  transition: color 0.5;
+}
+
+.song-h1 {
+  font-size: 1.25rem;
+}
+.song-h2 {
+  font-size: 1rem;
+  color: rgba(211, 211, 211, 0.8);
+}
+
+.songcard-section img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.section .song-title {
+  left: -2rem;
+}
+
+.songcard-img {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
