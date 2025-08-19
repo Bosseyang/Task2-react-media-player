@@ -35,8 +35,10 @@ section.songcard-section {
   height: 6rem;
 }
 
-.section .song-title {
-  left: -2rem;
+.song-title {
+  width: 55%;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
 
 .songcard-img {
