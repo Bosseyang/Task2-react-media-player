@@ -1,7 +1,9 @@
 #playlist-section {
-  background-color: aliceblue;
-
-  height: 100vh;
+  overflow-y: scroll;
+  height: 80vh;
   width: 50%;
   left: 0;
+
+  scrollbar-width: thin;
+  scrollbar-color: rgba(211, 211, 211, 0.5);
 }
