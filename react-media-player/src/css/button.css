@@ -1,0 +1,21 @@
+.songcard-section .play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 3rem;
+
+  border-radius: 50%;
+
+  width: 2rem;
+  height: 2rem;
+
+  background-color: lightgray;
+
+  color: black;
+}
+
+.songcard-section .play-button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
