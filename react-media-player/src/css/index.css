@@ -1,0 +1,19 @@
+@import url("header.css");
+@import url("playlist.css");
+@import url("songsection.css");
+
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #17273d;
+}
+main {
+  display: flex;
+}
