@@ -43,4 +43,16 @@ export const songs: SongData = [
     title: "Human",
     image: "/songImage/human.jpg",
   },
+  {
+    songId: 7,
+    artist: "Imagine Dragons",
+    title: "Shots (Broiler Remix)",
+    image: "/songImage/imagine_dragons_shots.jpg",
+  },
+  {
+    songId: 8,
+    artist: "Imagine Dragons",
+    title: "Demons",
+    image: "/songImage/imagine_dragons_demons.jpg",
+  },
 ];
