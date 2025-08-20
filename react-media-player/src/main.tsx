@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")!).render(
     <main className="main">
       <Playlist />
       <SongSection
-        image="../public/songImage/A_rocket_to_the_moon.jpg"
+        image="/songImage/A_rocket_to_the_moon.jpg"
         title="Like we used to"
         artist="A Rocket to the moon"
       />
