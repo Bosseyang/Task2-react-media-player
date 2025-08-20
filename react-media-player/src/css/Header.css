@@ -14,3 +14,12 @@
   color: lightgray;
   padding: 1.5rem;
 }
+
+/* Responsivity for smartphone screens*/
+@media screen and (max-width: 450px) {
+  .nav {
+    width: 100%;
+
+    padding: 1rem;
+  }
+}
