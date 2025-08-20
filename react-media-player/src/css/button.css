@@ -1,3 +1,12 @@
+.button {
+  color: lightgray;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: rgba(211, 211, 211, 0.7);
+}
+
 .songcard-section .play-button {
   display: flex;
   justify-content: center;
@@ -12,10 +21,10 @@
 
   background-color: lightgray;
 
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .songcard-section .play-button:hover {
-  opacity: 70%;
-  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(211, 211, 211, 0.7);
 }
