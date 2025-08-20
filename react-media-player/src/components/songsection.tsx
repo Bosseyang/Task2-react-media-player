@@ -1,9 +1,17 @@
 import type { ReactElement } from "react";
+import SongInfo from "./SongInfo";
 
-export default function SongSection(): ReactElement {
+interface ISongDataProps {
+  artist: string;
+  title: string;
+  image: string;
+}
+
+export default function SongSection(props: ISongDataProps): ReactElement {
   return (
     <section className="section song-section" id="song-section">
-      <h1>Song Info goes here</h1>
+      <img src={props.image} alt={props.title} />
+      <SongInfo title={props.title} artist={props.artist} />
     </section>
   );
 }
