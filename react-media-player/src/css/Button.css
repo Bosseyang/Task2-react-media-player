@@ -28,11 +28,6 @@
   background-color: rgba(211, 211, 211, 0.7);
 }
 
-.songcard-section .play-button {
-  position: absolute;
-  right: 3rem;
-}
-
 .center-controls .play-button {
   font-size: 2rem;
 
@@ -57,4 +52,12 @@
 .forward-button,
 .rewind-button {
   font-size: 2rem;
+}
+
+/* Responsivity for smartphone screens*/
+@media screen and (max-width: 450px) {
+  .play-button {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
