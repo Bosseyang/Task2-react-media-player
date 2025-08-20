@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+#root {
+  justify-self: center;
+  width: 1000px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #17273d;
+}
+main {
+  display: flex;
+  justify-self: center;
+
+  width: 100%;
+}
