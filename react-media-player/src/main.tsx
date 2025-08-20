@@ -1,16 +1,20 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./css/index.css";
-import Header from "./components/header";
-import Playlist from "./components/playlist";
-import SongSection from "./components/songsection";
+import Header from "./components/Header";
+import Playlist from "./components/Playlist";
+import SongSection from "./components/SongSection";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Header />
     <main className="main">
       <Playlist />
-      <SongSection />
+      <SongSection
+        image="../public/songImage/A_rocket_to_the_moon.jpg"
+        title="Like we used to"
+        artist="A Rocket to the moon"
+      />
     </main>
   </StrictMode>
 );
