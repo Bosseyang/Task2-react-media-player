@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import SongCard from "./songcard";
+import SongCard from "./SongCard";
 import { songs } from "../assets/songdata";
 
 export default function Playlist(): ReactElement {
@@ -12,6 +12,7 @@ export default function Playlist(): ReactElement {
             artist={song.artist}
             title={song.title}
             image={song.image}
+            songId={song.songId}
           />
         ))}
       </div>
