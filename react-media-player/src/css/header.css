@@ -14,12 +14,3 @@
   color: lightgray;
   padding: 1.5rem;
 }
-
-nav .header-button {
-  color: rgba(211, 211, 211, 1);
-}
-
-nav .header-button:hover {
-  color: white;
-}
-
