@@ -1,5 +1,6 @@
 .button {
   color: lightgray;
+  border-radius: 50%;
 }
 
 .button:hover {
@@ -7,12 +8,10 @@
   color: rgba(211, 211, 211, 0.7);
 }
 
-.songcard-section .play-button {
+.play-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  right: 3rem;
 
   border-radius: 50%;
 
@@ -24,7 +23,31 @@
   color: rgb(0, 0, 0);
 }
 
-.songcard-section .play-button:hover {
+.play-button:hover {
   color: rgba(0, 0, 0, 0.7);
   background-color: rgba(211, 211, 211, 0.7);
+}
+
+.songcard-section .play-button {
+  position: absolute;
+  right: 3rem;
+}
+
+.center-controls .play-button {
+  font-size: 2rem;
+
+  width: 3rem;
+  height: 3rem;
+}
+
+.add-button {
+  border-style: solid;
+  border-color: lightgray;
+  font-size: 1.5rem;
+}
+.add-button:hover {
+  border-color: rgba(211, 211, 211, 0.7);
+}
+.fav-button {
+  font-size: 1.5rem;
 }
