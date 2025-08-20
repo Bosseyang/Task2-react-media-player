@@ -4,6 +4,8 @@
   width: 50%;
   left: 0;
 
+  background-color: rgba(0, 0, 0, 0.2);
+
   scrollbar-width: thin;
   scrollbar-color: rgba(211, 211, 211, 0.5);
 }
