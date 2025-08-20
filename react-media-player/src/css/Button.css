@@ -45,9 +45,16 @@
   border-color: lightgray;
   font-size: 1.5rem;
 }
+
 .add-button:hover {
   border-color: rgba(211, 211, 211, 0.7);
 }
+
 .fav-button {
   font-size: 1.5rem;
+}
+
+.forward-button,
+.rewind-button {
+  font-size: 2rem;
 }
