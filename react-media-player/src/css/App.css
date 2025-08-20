@@ -5,7 +5,7 @@
 }
 #root {
   justify-self: center;
-  width: 1000px;
+  width: 65%;
 }
 
 html {
@@ -19,4 +19,27 @@ main {
   justify-self: center;
 
   width: 100%;
+}
+/* Responsivity for small desktop screens*/
+@media screen and (max-width: 1280px) {
+  #root {
+    width: 90%;
+  }
+}
+/* Responsivity for tablet screens*/
+@media screen and (max-width: 992px) {
+  #root {
+    width: 100%;
+  }
+}
+
+
+/* Responsivity for smartphone screens*/
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  #root {
+    width: 100%;
+  }
 }
