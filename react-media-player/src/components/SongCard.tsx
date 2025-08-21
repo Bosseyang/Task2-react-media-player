@@ -1,20 +1,26 @@
 import { useState, type ReactElement } from "react";
-import type { ISongData } from "../assets/songdata";
 
-export default function SongCard(props: ISongData): ReactElement {
-  const { artist, title, image, songId } = props;
+interface ISongCardInfo {
+  artist: string;
+  title: string;
+  image: string;
+  id: number;
+}
 
-  const [focus, setFocus] = useState(songId);
+export default function SongCard(props: ISongCardInfo): ReactElement {
+  const { artist, title, image, id } = props;
+
+  const [focus, setFocus] = useState(id);
 
   const onFocus = () => {
-    setFocus(songId);
+    setFocus(id);
     console.log(focus);
   };
   return (
     <section
       onClick={onFocus}
-      className={`section songcard-section songId-${onFocus}`}
-      key={songId}
+      className={`section songcard-section songId-${focus}`}
+      key={id}
     >
       <img className="songcard-img" src={image} alt={title} />
       <section className="section song-title">
