@@ -2,21 +2,21 @@ import type { ReactElement } from "react";
 import SecondsToMin from "./SecondsToMin";
 
 interface IProgressBarProps {
-  progresstime: number;
-  trackLength: number;
+  playedTime: number;
+  duration: number;
 }
 
 export default function ProgressBar({
-  progresstime,
-  trackLength,
+  playedTime,
+  duration,
 }: IProgressBarProps): ReactElement {
   return (
     <section className="section progressbar-section">
-      <SecondsToMin time={progresstime} />
+      <SecondsToMin time={playedTime} />
       <div className="progressbar">
         <div className="current-progress"></div>
       </div>
-      <SecondsToMin time={trackLength} />
+      <SecondsToMin time={duration} />
     </section>
   );
 }
