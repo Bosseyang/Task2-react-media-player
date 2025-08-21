@@ -14,11 +14,11 @@ export default function Playlist(): ReactElement {
       {songs.map((song) => (
         // <div onClick={() => onselect(song)}>
         <SongCard
-          key={song.songId}
+          key={song.id}
           artist={song.artist}
           title={song.title}
           image={song.image}
-          songId={song.songId}
+          id={song.id}
         />
         // </div>
       ))}
