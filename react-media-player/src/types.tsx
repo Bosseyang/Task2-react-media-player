@@ -3,5 +3,5 @@ export interface ISong {
   artist: string;
   title: string;
   image: string;
-  duration: string;
+  duration: number;
 }
