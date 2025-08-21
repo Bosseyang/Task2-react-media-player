@@ -1,8 +1,14 @@
-import { type ReactElement } from "react";
+import { useState, type ReactElement } from "react";
 import SongCard from "./SongCard";
 import { songs } from "../assets/songdata";
+// import type { ITrack } from "../types";
 
 export default function Playlist(): ReactElement {
+  // export const Playlist: React.FC<{
+  //   songs: SongData[];
+  //   onSelect: (track: SongData) => void;
+  // }> = ({ songs, onSelect }) => {
+
   return (
     <section className="section playlist-section" id="playlist-section">
       <div>
