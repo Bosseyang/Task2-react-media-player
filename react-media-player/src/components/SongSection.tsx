@@ -14,7 +14,7 @@ export default function SongSection(props: ISongDataProps): ReactElement {
     <section className="section song-section" id="song-section">
       <img src={props.image} alt={props.title} />
       <SongInfo title={props.title} artist={props.artist} />
-      <ProgressBar progresstime={40} trackLength={220} />
+      <ProgressBar playedTime={40} duration={220} />
       <Controls />
     </section>
   );
