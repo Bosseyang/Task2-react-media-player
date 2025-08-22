@@ -55,8 +55,12 @@
 @media screen and (max-width: 450px) {
   .songcard-section {
     width: 100%;
-
     gap: 1rem;
+    padding: 1rem;
+  }
+
+  .song-title {
+    width: 60%;
   }
 
   .songcard-section .play-button {
