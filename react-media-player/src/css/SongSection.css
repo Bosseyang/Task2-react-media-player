@@ -11,10 +11,27 @@
   right: 0;
 
   padding: 2rem;
+  gap: 0.5rem;
 }
 
 #song-section img {
-  width: 90%;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+#song-section .song-section-h1 {
+  color: lightgray;
+}
+.song-section.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+}
+.note-icon {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 10rem;
 }
 /* Responsivity for smartphone screens*/
 @media screen and (max-width: 768px) {
@@ -24,16 +41,23 @@
 
     padding: 2rem;
   }
-  #song-section img {
-    width: 80%;
-  }
 }
 /* Responsivity for smartphone screens*/
 @media screen and (max-width: 480px) {
   #song-section {
     padding: 1rem;
   }
-  #song-section img {
-    width: 90%;
+}
+
+/* Responsivity for smartphone screens lanscape mode*/
+@media screen and (max-height: 320px) {
+  #song-section {
+    padding: 0.5rem;
+  }
+  section.section {
+    padding: 0.5rem;
+  }
+  .song-section.image-container {
+    height: 45%;
   }
 }
