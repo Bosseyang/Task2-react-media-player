@@ -2,7 +2,7 @@ import type { ReactElement } from "react";
 
 export default function Controls(): ReactElement {
   return (
-    <section className="controls">
+    <section className="section controls">
       <span className="button repeat-button material-symbols-outlined">
         repeat
       </span>
