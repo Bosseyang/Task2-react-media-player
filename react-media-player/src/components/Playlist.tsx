@@ -10,7 +10,7 @@ export const Playlist: FC<{
   return (
     <section className="section playlist-section" id="playlist-section">
       {songs.map((song) => (
-        <div onClick={() => onSelect(song)}>
+        <div key={song.id} onClick={() => onSelect(song)}>
           <SongCard
             key={song.id}
             artist={song.artist}
