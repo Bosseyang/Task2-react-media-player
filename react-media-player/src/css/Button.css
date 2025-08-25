@@ -55,6 +55,11 @@
 }
 
 .fav-button {
+  color: rgba(211, 211, 211, 0.4);
+  font-size: 1.5rem;
+}
+.fav-button:hover {
+  color: white;
   font-size: 1.5rem;
 }
 
