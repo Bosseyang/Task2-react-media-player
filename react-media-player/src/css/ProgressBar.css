@@ -17,6 +17,7 @@
   height: 0.3rem;
   width: 70%;
 }
+
 .progressbar:hover {
   cursor: pointer;
 }
