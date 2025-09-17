@@ -23,12 +23,14 @@
 #song-section .song-section-h1 {
   color: lightgray;
 }
+
 .song-section.image-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 60%;
 }
+
 .note-icon {
   color: rgba(255, 255, 255, 0.8);
   font-size: 10rem;
@@ -42,6 +44,7 @@
     padding: 2rem;
   }
 }
+
 /* Responsivity for smartphone screens*/
 @media screen and (max-width: 480px) {
   #song-section {
